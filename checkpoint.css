@@ -1,0 +1,194 @@
+header{
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+.navbar ul li a:hover {
+    color: rgb(0, 179, 155);
+}
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    padding-top:10px;
+    position:absolute;
+    min-width:220px;
+    margin-left:-100px;
+    background:#fff;
+    box-shadow:   rgb(211, 207, 201) 0px 5px 10px 0px;
+    z-index: 1;
+
+}
+.dropdown-content ul {
+list-style-type: none;
+}
+.dropdown-content ul li{
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left:-25px;
+}
+.dropdown-content ul li a{
+    display: block;
+    color: #ababab;
+    padding: 12px 16px;
+    text-decoration: none;
+    line-height:120%;
+    
+}
+.dropdown-content ul li a:hover {
+    color: rgb(6, 187, 157);
+    background-color: #f1f1f1;
+    display: block;
+}
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+#dropdown:hover .dropdown-botton {
+    color: rgb(6, 187, 157);
+}
+
+
+
+
+.header-right {
+    display: inline-flex;
+    font-family: roboto arial sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 38px;
+    color: rgb(200,200,200);
+
+}
+#aboutUs {
+    color: rgb(0, 179, 155);
+}
+.navbar >img{
+    width: 5cm;
+}
+h1 {
+    color: rgb(6, 187, 157);
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 44.2px;
+    text-decoration: none solid rgb(0, 179, 155);
+    text-align: center;
+    word-spacing: 0px;
+}
+.logo {
+    text-align: center;
+}
+p {
+    font-family: roboto arial sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(116,116,116);
+    margin: 13px 0 13px  0;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(6, 187, 157);
+    margin: 10px;
+    border-radius: 10px;
+    height: 345px;
+    width: 275.633px;
+    padding: 32px 32px 0 32px;
+    overflow: hidden;
+}
+.white{
+    font-family: "work sans", arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: -0.3px;
+    line-height: 28.8px;
+
+}
+.title{
+    font-family: "work sans", arial, sans-serif;
+    font-size: 26px;
+    color: white;
+    letter-spacing: -0.3;
+    line-height: 34px;
+    text-align: left;
+}
+#flex-container {
+    display: flex;
+    color: rgb(116,116,116);
+   justify-content: space-evenly;        
+   margin-left: 18%;
+   word-spacing: 0.8px;
+   text-align: left;
+   height: 200px;
+   width: 23cm;
+}
+.companies{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10%;
+}
+
+.companies h1{
+    width: 40%;
+    margin: 20px;
+    color: rgb(0, 179, 155);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    
+}
+.companies ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    font-size:0;
+    width:67%;
+}
+
+.companies ul li{
+ font-size: 10px;
+ display:inline-block;
+ width:160px;
+ padding:5px 10px;
+}
+
+.companies ul li a svg{
+    padding-right: 10px;
+    width: 135px;
+}
+.companies ul li a{
+    text-decoration: none;
+    fill: rgb(116, 116, 116);
+}
+.companies ul li a:hover{
+    fill: rgb(0, 179, 155);
+}
